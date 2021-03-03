@@ -92,7 +92,11 @@ This is an example of how to list things you need to use the software and how to
    ```JS
    const API_KEY = 'ENTER YOUR API';
    ```
-
+5. Enter your API in `python`
+   ```JS
+   import os
+   API_KEY = 'ENTER YOUR API'
+   ```
 
 
 <!-- USAGE EXAMPLES -->
