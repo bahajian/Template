@@ -105,6 +105,14 @@ kubectl expose pod <Pod-Name>  --type=NodePort --port=80 --name=<Service-Name>
 
 kubectl get service SERVICE_NAME -o yaml
 ```
+```bash
+kubectl get nodes -o wide
+kubectl describe pod my-first-pod 
+kutectl delete nodegroup 
+
+```
+
+
 
 <!-- USAGE EXAMPLES -->
 ## Usage
