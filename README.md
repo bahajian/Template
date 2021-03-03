@@ -97,7 +97,14 @@ This is an example of how to list things you need to use the software and how to
    import os
    API_KEY = 'ENTER YOUR API'
    ```
+### 6. Expose Pod as a Service:
+```python
+import alaki
+import dolaki
+kubectl expose pod <Pod-Name>  --type=NodePort --port=80 --name=<Service-Name>
 
+kubectl get service SERVICE_NAME -o yaml
+```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
